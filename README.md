@@ -8,7 +8,7 @@ communication between these services.
 
 Prefer below diagrams:
 - [Class Diagrams](https://drive.google.com/file/d/1Zo4V09V7YgHosw_xmq3pEJZ_yzBfzUIr/view?usp=sharing)
-- [Solution Diagrams](https://drive.google.com/file/d/1utetmZ6VL25lS2cr92aUSJWmKnsgR8f3/view?usp=sharing)
+- [Solution Diagrams](https://drive.google.com/file/d/1sUEAotFYD7ygYY1eN1HgNvOT3_aZoyvi/view?usp=sharing)
 
 ## Technical
 - Language: Java 8
