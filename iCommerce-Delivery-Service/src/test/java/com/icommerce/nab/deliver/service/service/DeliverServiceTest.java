@@ -29,7 +29,7 @@ public class DeliverServiceTest {
 
     @Test
     public void shouldDeliverOrdersSuccessfully() {
-        Mockito.when(orderRepository.updateOrderStatus(Mockito.any(OrderStatus.class), Mockito.anyList())).thenReturn(1L);
+        Mockito.when(orderRepository.updateOrderStatus(Mockito.any(OrderStatus.class), Mockito.anyList())).thenReturn(1);
 
         ICommerceResponse response = deliverService.deliverOrders(UUID.randomUUID().toString(), MockDataUtils.prepareOrderDTOs(1));
 
