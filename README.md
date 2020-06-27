@@ -12,8 +12,12 @@ Prefer below diagrams:
 
 ## Technical
 - Language: Java 8
-- Framework: Spring Boot, Spring Data JPA, JUnit, Mockito, Hibernate Envers for audit.
+- Framework: Spring Boot, Spring Data JPA + Hibernate + Hibernate Envers, JUnit, Mockito.
+- Database: H2 Database(Can config to MySQL Database if already set up)
 - Develop based on web technology with RESTful to communicate between services to demonstrate microservices communication.
+- For audit demostration, applied Hibernate Envers for audit data changes. Ex: Product has price field marked @Audited for audit changed values.
+- Also for enhancement, applied template method pattern to re-use codes and prevent duplication. 
+- Applied retry mechanism for calling Restful APIs, handling failure data records.
 
 ## Structures:
 #### iCommerce-Order-Service
